@@ -1,0 +1,67 @@
+/*bộ chọn phần tử - element selector*/
+table, th, td {
+    border: 1px solid black;
+}
+h1 {
+    border: solid 1px;
+    padding: 5px;
+    color: red;
+}
+/*bộ chọn id selector với id là div1*/
+#div1 {
+    padding: 7rem;
+}
+/*bộ chọn class selector => link*/
+/*.link{
+    list-style: none;
+    list-style-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fvi.wikipedia.org%2Fwiki%2FC%25C3%25A0_ph%25C3%25AA&psig=AOvVaw2M67qjI8O_MLYvNP5wpWQG&ust=1695178701668000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCODS5vPWtYEDFQAAAAAdAAAAABAY");
+}*/
+.link li:first-child:before{
+    content:'';
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-image: url("https://www.acouplecooks.com/wp-content/uploads/2021/05/Latte-Art-066.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}
+.link li:nth-child(2):before{
+    content:'';
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-image: url("https://www.foodandwine.com/thmb/6wTm7a0y87X97LK-ZMxe2787kI8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/different-types-of-tea-FT-BLOG0621-7c7fd231e66d4fea8ca9a47cad52ba79.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.link li:nth-child(3):before {
+    content: '';
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-image: url("https://us.coca-cola.com/content/dam/nagbrands/us/coke/en/products/coca-cola-original/desktop/coca-cola-original-12oz.jpg?wid=325");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.course{
+    background: #ff9999;
+    padding: 20px;
+}
+.course li{
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+}
+.drinks{
+    background: #8a2be1;
+    padding: 20px;
+}
+.drinks li{
+    background: #ADFF2E;
+    padding: 5px;
+    margin-left: 35px;
+}
